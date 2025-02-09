@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Bliss - Booking</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #fff3f8; text-align: center; margin: 0; padding: 0;">
+
+<header style="background: #ff4081; color: white; padding: 20px; text-align: center;">
+    <h1 style="margin: 0;">Book an Appointment</h1>
+</header>
+
+    <section style="background: #c8e6c9; color: #2e7d32; padding: 20px; margin: 50px auto; width: 50%; border-radius: 10px;">
+        <h2>Thank you, {{ name }}!</h2>
+        <p>Your appointment for <strong>{{ service }}</strong> is confirmed on <strong>{{ date }}</strong> at <strong>{{ time }}</strong>.</p>
+    </section>
+    <section style="background: white; padding: 30px; margin: 50px auto; width: 50%; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2);">
+        <h2 style="color: #ff4081;">Schedule Your Appointment</h2>
+        <form method="POST" style="display: flex; flex-direction: column; align-items: center;">
+            <input type="text" name="name" placeholder="Your Name" required 
+                style="width: 80%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px;">
+            
+            <input type="email" name="email" placeholder="Email" required 
+                style="width: 80%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px;">
+
+            <select name="service" 
+                style="width: 84%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px;">
+                <option value="Facial">Facial</option>
+                <option value="Hair Styling">Hair Styling</option>
+                <option value="Makeup">Makeup</option>
+            </select>
+
+            <input type="date" name="date" required 
+                style="width: 80%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px;">
+
+            <input type="time" name="time" required 
+                style="width: 80%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px;">
+
+            <button type="submit" 
+                style="background: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+                Confirm Booking
+            </button>
+        </form>
+    </section>
+
+<footer style="background: #ff4081; color: white; text-align: center; padding: 10px; margin-top: 20px;">
+    <p>&copy; 2025 Beauty Bliss. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
