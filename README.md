@@ -1,14 +1,14 @@
-# [Project Name] 🎯
+# [SMART MOVE] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [TERM WAHH]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1:[AYISHA HUSSAIN] - [GOVT WOMENS POLYTECHNIC KAYAMKULAM]
+- Member 2: [NANDANA.M] - [GOVT WOMENS POLYTECHNIC KAYAMKULM]
+- Member 3: [SUBAHANA.S] - [GOVT WOMENS POLYTECHNIC KAYAMKULAM]
 
 ### Hosted Project Link
 [mention your project hosted project link here]
